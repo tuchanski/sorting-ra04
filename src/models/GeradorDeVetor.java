@@ -1,24 +1,16 @@
 package models;
+
 import java.util.Random;
 
 public class GeradorDeVetor {
 
-    private int capacidade; // Capacidade do vetor aleatório a ser gerado
-
-    public GeradorDeVetor(int capacidade) {
-        this.capacidade = capacidade;
-    }
-
-    public int[] gerarVetor() {
-
+    public int[] gerarVetor(int capacidade, int valorMaximo, long seed) {
         int[] vetor = new int[capacidade];
-        Random random = new Random();
+        Random random = new Random(seed);
 
         for (int i = 0; i < capacidade; i++) {
-            vetor[i] = random.nextInt();
+            vetor[i] = random.nextInt(valorMaximo);
         }
-
         return vetor;
     }
-
 }
