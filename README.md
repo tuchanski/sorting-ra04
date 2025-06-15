@@ -1,6 +1,8 @@
 # Análise Comparativa de Algoritmos de Ordenação - Relatório
 ## Merge Sort vs. Counting Sort
 
+Link Vídeo-Relatório: https://www.youtube.com/watch?v=uaSkuQGOHwk
+
 Aluno: Guilherme Tuchanski Rocha
 
 ## 1. Introdução
